@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 0 solid #333;
+    width: 335px;
+    height: 300px;
+    text-align: center;
+    margin: 15px;
+    background-color: #1F3154;
+    border-radius: 1rem;
+}
+
+.card img {
+    width: 335px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+P {
+    color: #94a3b8;
+    line-height: 4;
+    font-weight: 700;
+    font-size: 20px;
+}
