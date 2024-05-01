@@ -1,10 +1,11 @@
 
-import "./Header.css"
+import "./Header.css";
+
 function Header() {
 
     return (
         <>
-            <header >
+            <header>
                 <nav className="nav-bar">
                     <ul>
                         <li>
@@ -23,16 +24,5 @@ function Header() {
         </>
     );
 }
-// ReactDOM.render(Header, document.body)
+
 export default Header;
-
-
-// type Props = {}
-// export default class App extends Component<Props> {
-//   render() {
-//     return (
-//       <View>
-//       </View>
-//     )
-//   }
-// }
