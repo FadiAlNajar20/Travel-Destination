@@ -1,18 +1,13 @@
 import dataTravle from "../../data/db.json";
 import "./Tours.css";
+import { Tour } from "./tour/Tour.js";
 
 function Tours () {
+const tour = dataTravle;
     return (
-        <div className="parent">
-        {dataTravle.map((data) => { 
-            return (
-            <div className="card">
-                <img src={data.image} alt="The image is broken"/>
-                <p>{data.name}</p>
-            </div>
-            )
-        })}
-        </div>
+       <>
+       <Tour tour={tour}/>
+       </>
     )
 }
 
