@@ -12,8 +12,8 @@
 .card {
     border: 0 solid #333;
     width: 335px;
-    height: 300px;
-    text-align: center;
+    height: 350px;
+    /* text-align: center; */
     margin: 15px;
     background-color: #1F3154;
     border-radius: 1rem;
@@ -31,4 +31,17 @@ P {
     line-height: 4;
     font-weight: 700;
     font-size: 20px;
+    padding-left: 15px;
+}
+
+.read-more {
+    display: flex;
+    padding: 15px;
+    /* padding-left: 50px; */
+    margin-left: 10px;
+    background-color: #2563eb;
+    width: 110px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #cbd5e1;
 }
